@@ -4,7 +4,8 @@ from utils import read_binary_file, write_binary_file, print_information
 
 # input_files = ["pic_original.raw", "книга.txt", "enwik7.txt", "pic_bg.jpg", "pic_bw.jpg", "pic_original.jpg", "registry.x86_64.bin"]
 input_files = ["enwik7.txt"]
-sizes = [5000, 10000, 100000, 1000000, 10000000, 100000000, 200000000, 500000000, 1000000000, 2000000000]
+# sizes = [5000, 10000, 100000, 1000000, 10000000, 100000000, 200000000, 500000000, 1000000000, 2000000000]
+sizes = [20000, 35000, 40000, 45000, 50000]
 # слишком много промежуточных файлов
 for input_file in input_files:
     for size in sizes:
